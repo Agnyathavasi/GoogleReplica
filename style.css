@@ -1,0 +1,195 @@
+@font-face {
+	font-family: "josefin";
+	src: url('JosefinSans-Regular.ttf');
+	font-weight: 100;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "sourcesans";
+	src:url('SourceSansPro-Regular.ttf');
+	font-weight: 100;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "jost";
+	src:url('Jost-Regular.ttf');
+	font-weight: 50;
+	font-style: normal;
+}
+
+.about {
+	float: left;
+}
+
+.gmail {
+	float: right;
+}
+
+.about ul{
+	list-style: none;
+	margin-right: 20px;
+	background-color: #fff;
+	padding-bottom: 20px;
+}
+
+.about li {
+	display: block;
+	float: right;
+	list-style: none;
+	font-family: sourcesans;
+	font-size: 15px;
+}
+
+.about a {
+	text-decoration: none;
+	color: grey;
+	padding-right: 20px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+.about a:hover{
+	color: #bebebe;
+}
+
+.gb_cf {
+	width: 20px;
+	height: 20px;
+	text-align: center;
+	color: rgba(255,255,255, .87 );
+	align-content: center;
+	padding-top: 2px;
+}
+
+.gmail {
+	margin-right: 20px;
+}
+
+.gmail ul{
+	list-style: none;
+	margin-right: 20px;
+	background-color: #fff;
+	padding-bottom: 20px;
+}
+
+.gmail li {
+	display: block;
+	float: right;
+	list-style: none;
+	font-family: sourcesans;
+	font-size: 15px;
+}
+
+.gmail a {
+	text-decoration: none;
+	color: grey;
+	padding: 10px 20px;
+}
+
+.gmail img {
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+}
+
+.gmail a:hover {
+	color: #bebebe;
+}
+
+h1 {
+	position: absolute;
+	top: 21%;
+	width: 99%;
+	text-align: center;
+	font-size: 100px;
+	font-weight: 1px;
+}
+
+.g {
+	color: #4285F4;
+	font-family: 'jost';
+	font-size: 110px;
+}
+
+.o {
+	color: #DB4437;
+	font-family: 'jost';
+}
+
+.ot {
+	color: #F4B400;
+	font-family: 'jost';
+}
+
+.gs {
+	color: #4285F4;
+	font-family: 'jost';
+}
+
+.l {
+	color: #0F9D58;
+	font-family: 'jost';
+}
+
+.e {
+	color: #DB4437;
+	font-family: 'josefin';
+}
+
+.input {
+	clear: both;
+	position: absolute;
+	top: 52%;
+	width: 99%;
+	text-align: center;
+}
+
+.searchbar {
+	font-size: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	border: 0.01px solid grey;
+	font-size: 18px;
+	width: 60%;
+	font-family: sourcesans;
+	border-radius: 30px;
+	box-shadow: 0.5px 0.7px 0.1em;
+}
+
+.searchbar:hover {
+	border-style: none;
+}
+
+.buttons{
+	clear: both;
+	position: absolute;
+	top: 62%;
+	width: 99%;
+	text-align: center;
+}
+
+.buttons button {
+	font-family: sourcesans;
+	padding: 10px 20px;
+	margin: 10px;
+	border-style: none;
+	color: grey;
+	border-radius: 2px;
+	background-color: #DDDDDD;
+}
+
+.buttons button:hover {
+	background-color: #cccccc;
+}
+
+footer {
+	clear: both;
+	position: absolute;
+	top: 91%;
+	padding: 3px;
+	width: 98.5%;
+	background-color: #DDDDDD;
+}
